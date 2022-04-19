@@ -1,0 +1,130 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  margin: 0;
+}
+
+.contenitore1{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 900px;
+  height: 650px;
+  border-radius: 25px;
+  margin:auto;
+  margin-top: 20px;
+}
+
+/* intestazione */
+
+header > img{
+  width: 190px;
+  padding-left: 370px;
+  padding-top: 65px;
+}
+
+h1{
+  color: rgb(0, 255, 0);
+  font-family: "Arial";
+  font-weight: inherit;
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+/* linee guida prenotazioni */
+
+.colore{
+  background-color: rgb(0, 255, 0);
+  width: 700px;
+  height: 35px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+span > input{
+  margin-top: 9px;
+  text-align: center;
+}
+
+#p{
+  width: 50px;
+  border: 1px solid black;
+}
+
+#t{
+  width: 120px;
+  border: 1px solid black;
+}
+
+#a{
+  width: 70px;
+  border: 1px solid black;
+}
+
+
+/* prenotazioni in corso */
+
+main > section{
+  margin-left: 100px;
+  margin-top: 20px;
+  color: white;
+  }
+
+input[type="checkbox"]{
+  margin-right: 2px;
+  margin-bottom: 5px;
+  font-size: 4px;
+}
+
+h2{
+    display:inline-block;
+    font-family: "Verdana";
+    font-weight: inherit;
+    font-size: 18px;
+  }
+
+p, .freccia{
+  font-family:"Courier New";
+  font-size: 12px;
+}
+
+.freccia:before{
+   content: "\21A6";
+   margin-right: 5px;
+}
+
+.arancione{
+  width:280px;
+  height: 25px;
+  background-color: rgb(218, 165, 32);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.verde{
+  width: 450px;
+  height: 25px;
+  background-color: rgb(50, 205, 50);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.rosso{
+  width: 110px;
+  height: 25px;
+  background-color: rgb(178, 34, 34);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* firma dell'autore */
+
+footer > h3{
+  text-align: center;
+  text-decoration: underline overline;
+  color: white;
+  font-style: italic;
+  font-family: "papyrus";
+}
